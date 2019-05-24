@@ -28,27 +28,58 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwj-Jh-j2p">
-                                <rect key="frame" x="135" y="451" width="141" height="30"/>
-                                <color key="backgroundColor" red="0.94885935689295486" green="0.1549466576013967" blue="0.021335880918152684" alpha="0.48982538863148001" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwj-Jh-j2p">
+                                <rect key="frame" x="136.5" y="394" width="141" height="30"/>
+                                <color key="backgroundColor" red="0.14828079197406566" green="0.94885935689295486" blue="0.56369878479660696" alpha="0.48982538863148001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="DREAM of the future">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="futureTask:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Sm-Jf-jch"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yP2-kg-EIp">
+                                <rect key="frame" x="134.5" y="444" width="145" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.83693509938221866" blue="0.37249705386335819" alpha="0.48982538863148001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="REFLECT on the past">
+                                    <color key="titleColor" red="1" green="0.34498688929999999" blue="0.35065539890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pastTask:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VSf-dW-2Id"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ga-Vg-VwG">
+                                <rect key="frame" x="160.5" y="514" width="93" height="30"/>
+                                <color key="backgroundColor" red="0.32284233016125818" green="1" blue="0.23996174497188072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Who's NeXT?">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextTurn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IE8-Xx-Ymj"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="iwj-Jh-j2p" firstAttribute="top" secondItem="yOV-0D-fri" secondAttribute="bottom" constant="77" id="WdU-Of-wlo"/>
+                            <constraint firstItem="6ga-Vg-VwG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2bc-lw-GtU"/>
+                            <constraint firstItem="yP2-kg-EIp" firstAttribute="top" secondItem="iwj-Jh-j2p" secondAttribute="bottom" constant="20" id="Ipa-09-guF"/>
+                            <constraint firstItem="iwj-Jh-j2p" firstAttribute="top" secondItem="yOV-0D-fri" secondAttribute="bottom" constant="20" id="KPN-ae-TYq"/>
+                            <constraint firstItem="iwj-Jh-j2p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Leg-8J-DR7"/>
+                            <constraint firstItem="yP2-kg-EIp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QuY-Vb-rF1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yOV-0D-fri" secondAttribute="trailing" constant="20" id="aiq-uX-MYF"/>
-                            <constraint firstItem="iwj-Jh-j2p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="fMo-8g-OPd"/>
                             <constraint firstItem="yOV-0D-fri" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="iCx-j7-fGK"/>
+                            <constraint firstItem="6ga-Vg-VwG" firstAttribute="top" secondItem="yP2-kg-EIp" secondAttribute="bottom" constant="40" id="sC6-pb-ABq"/>
                             <constraint firstItem="yOV-0D-fri" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zql-dY-Yzv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="displayTask" destination="yOV-0D-fri" id="7yc-en-zT8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="125.89285714285714"/>
         </scene>
     </scenes>
 </document>
