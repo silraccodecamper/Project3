@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -29,8 +29,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwj-Jh-j2p">
-                                <rect key="frame" x="136.5" y="394" width="141" height="30"/>
-                                <color key="backgroundColor" red="0.14828079197406566" green="0.94885935689295486" blue="0.56369878479660696" alpha="0.48982538863148001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="136.66666666666666" y="394" width="140.99999999999997" height="30"/>
+                                <color key="backgroundColor" red="0.79124158620834351" green="0.77388274669647217" blue="0.94223898649215698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="DREAM of the future">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -39,8 +39,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yP2-kg-EIp">
-                                <rect key="frame" x="134.5" y="444" width="145" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.83693509938221866" blue="0.37249705386335819" alpha="0.48982538863148001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="134.66666666666666" y="444" width="144.99999999999997" height="30"/>
+                                <color key="backgroundColor" red="0.73730438947677612" green="0.92143601179122925" blue="0.6317552924156189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="REFLECT on the past">
                                     <color key="titleColor" red="1" green="0.34498688929999999" blue="0.35065539890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -49,8 +49,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ga-Vg-VwG">
-                                <rect key="frame" x="160.5" y="514" width="93" height="30"/>
-                                <color key="backgroundColor" red="0.32284233016125818" green="1" blue="0.23996174497188072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="160.66666666666666" y="514" width="93" height="30"/>
+                                <color key="backgroundColor" red="0.78910642862319946" green="0.94879835844039917" blue="0.85873270034790039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Who's NeXT?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
